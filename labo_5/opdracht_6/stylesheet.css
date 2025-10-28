@@ -6,11 +6,10 @@ h2 { font-size: 1.5em; }
 h3 { font-size: 1.4em; }
 
 p {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman";
     font-size: 1.2em;
 }
 
-/* Kleur-classes voor elke paragraaf */
 p.rood  { color: red; }
 p.groen { color: green; }
 p.blauw { color: blue; }
