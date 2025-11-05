@@ -1,6 +1,11 @@
 a {
     color: darkblue;
+    text-decoration: none;
     background-image: url('https://cdn-icons-png.flaticon.com/512/25/25284.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px;
+    padding-left: 22px;              
 }
 
 a:hover {
