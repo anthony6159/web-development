@@ -1,0 +1,8 @@
+a {
+    color: darkblue;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/25/25284.png');
+}
+
+a:hover {
+    text-decoration: underline;
+}
