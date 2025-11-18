@@ -1,0 +1,46 @@
+#vrienden {
+    margin-top: 30px;
+}
+
+#vrienden h2 {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+.vrienden-tabel {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95em;
+}
+
+.vrienden-tabel thead {
+    background-color: #56a5f5;
+    color: #ffffff;
+}
+
+.vrienden-tabel th,
+.vrienden-tabel td {
+    border: 1px solid #dddddd;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.vrienden-tabel tbody tr:nth-child(even) {
+    background-color: #f7fbff;
+}
+
+.vrienden-tabel tbody tr:hover {
+    background-color: #e3f2fd;
+}
+/* Even rijen van de generator */
+.vrienden table tbody .alt td {
+    background: #E1EEF4;
+    color: #1A009E;
+}
+
+/* Onbekende cellen – werkt op zowel even als oneven rijen */
+.vrienden table tbody tr.alt td.onbekend,
+.vrienden table tbody tr td.onbekend {
+    background-color: red;
+    color: white;
+}
