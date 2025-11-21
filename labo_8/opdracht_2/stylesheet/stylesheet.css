@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 20px;
+}
+
+.column {
+    width: calc(50% - 20px);
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}

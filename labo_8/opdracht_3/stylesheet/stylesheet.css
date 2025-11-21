@@ -1,0 +1,92 @@
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+#imgHeader {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2 {
+    color: rgb(0, 126, 126);
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+#content {
+    float: left;
+    width: 70%;
+}
+
+#elixirs {
+    float: right;
+    width: 28%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#elixirs h1 {
+    color: #d2691e;
+}
+
+#elixirs h2 {
+    color: #c71585;
+}
+
+#guarantee {
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+    border: 2px dotted #ffffff;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#content ul {
+    padding-left: 20px;
+}
+
+#elixirs a {
+    text-decoration: none;
+}
+
+#elixirs a:hover {
+    background-color: brown;
+    color: #ffffff;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.6em;
+}
+.cd {
+    font-style: italic; // cuersief
+}
+
+.artist {
+    font-weight: bold;
+}
+
