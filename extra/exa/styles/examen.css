@@ -1,0 +1,131 @@
+body{
+    font-family: Arial, Courier-New, sans-serif;
+    color: #292929;
+    background-image: url("../../Examen/images/chips_challenge.jpg");
+    width: 100%;
+}
+
+
+header{
+    width: auto;
+    color:white;
+    background-color: #292929;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+header > nav > dl{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+header nav a:hover{
+    text-decoration: underline white 1px;
+}
+
+main{
+    width: 80%;
+    margin: 2rem;
+}
+
+article, aside{
+    display: block;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin: 2rem;
+    border-radius: 15px;
+}
+
+article h2{
+    text-decoration: underline solid 2px #292929 ;
+    margin-bottom: 0.5rem;
+}
+
+article p::first-letter{
+    font-weight: bold;
+    font-size: 200%;
+}
+
+
+.bug{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.blob{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.fireball{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.paramecium{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.teeth{
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+article div:nth-child(odd)
+{
+    background-color: #dfdfdf;
+}
+
+article div:nth-child(even)
+{
+    background-color: white;
+}
+
+article section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+article div{
+    text-align: center;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+}
+
+
+.games-columns {
+    display: flex;
+    gap: 2rem;         /* ruimte tussen de kolommen */
+    align-items: flex-start; /* bovenaan uitlijnen */
+}
+
+.games-columns > div {
+    flex: 1;           /* beide kolommen even breed */
+}
+
+
+footer{
+    background-color: #a7a5a5;
+    color: black;
+    text-align: center;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+footer a{
+    color: #ce0000;
+
+}
+
+footer a:hover{
+
+    text-decoration: underline;
+}

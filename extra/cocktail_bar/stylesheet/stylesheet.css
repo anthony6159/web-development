@@ -1,0 +1,88 @@
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+/* Header image (Bootstrap img-fluid doet dit ook, maar dit is ok) */
+#imgHeader {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2 {
+    color: rgb(0, 126, 126);
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+/* GEEN floats meer! Bootstrap regelt de layout via row/col */
+
+#elixirs {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Sidebar images altijd responsive */
+#elixirs img {
+    max-width: 100%;
+    height: auto;
+}
+
+#elixirs h1 {
+    color: #d2691e;
+}
+
+#elixirs h2 {
+    color: #c71585;
+}
+
+#guarantee {
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+    border: 2px dotted #ffffff;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#content ul {
+    padding-left: 20px;
+}
+
+#elixirs a {
+    text-decoration: none;
+}
+
+#elixirs a:hover {
+    background-color: brown;
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.6em;
+}
+
+.cd {
+    font-style: italic; /* cursief */
+}
+
+.artist {
+    font-weight: bold;
+}
