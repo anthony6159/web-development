@@ -1,5 +1,5 @@
 const setup = () => {
-    const text = "De man van An geeft geen hand aan ambetante verwanten";
+    const text = "De man van An geeft geen hand aan ambetante verwanten".toLowerCase();
     const searchStr = "an";
 
     const countOccurrencesIndexOf = (text, searchStr) => {
@@ -21,7 +21,7 @@ const setup = () => {
             index = text.lastIndexOf(searchStr);
         }
         return count;
-    };
+    }; 
 
     console.log("Aantal met indexOf:", countOccurrencesIndexOf(text, searchStr));
     console.log("Aantal met lastIndexOf:", countOccurrencesLastIndexOf(text, searchStr));
