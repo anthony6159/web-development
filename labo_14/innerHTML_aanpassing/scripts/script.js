@@ -1,10 +1,10 @@
-window.addEventListener("load", setup);
-
-function setup() {
+const setup = () => {
     let pElement = document.getElementById("txtOutput");
     let button = document.getElementById("btnWijzig");
 
-    button.addEventListener("click", function () {
+    button.addEventListener("click", () => {
         pElement.innerHTML = "Welkom!";
     });
-}
+};
+
+window.addEventListener("load", setup);

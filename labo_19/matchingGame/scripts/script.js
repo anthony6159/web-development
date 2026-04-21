@@ -47,7 +47,7 @@ function optimizeGridLayout(numItems, containerWidth, containerHeight) {
     };
 }
 
-const setup = () => {
+const seStup = () => {
     global.GAMEBOARD.replaceChildren();
     const switchState = aantalGelijkeKaartenSwitch.checked;
     global.AANTAL_GELIJKE_KAARTEN = switchState ? 3 : 2;

@@ -6,10 +6,10 @@ console.log('Eerste:', familieleden[0]);
 console.log('Derde:', familieleden[2]);
 console.log('Vijfde:', familieleden[4]);
 
-function VoegNaamToe(array) {
+const VoegNaamToe = (array) => {
     let nieuweNaam = prompt('Geef een extra familienaam in:');
     array.push(nieuweNaam);
-}
+};
 
 VoegNaamToe(familieleden);
 
